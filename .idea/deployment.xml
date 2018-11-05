@@ -12,7 +12,7 @@
       <paths name="files.000webhost.com">
         <serverdata>
           <mappings>
-            <mapping deploy="/Devinerchiffre/" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/Devinerchiffre" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
