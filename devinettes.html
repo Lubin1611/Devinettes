@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Pattaya" rel="stylesheet">
 </head>
 <body>
 
-<label for = "proposition"> Tapez votre chiffre ici :</label>
+<h1> Devinez un nombre !</h1>
+
+<div id = "emplacement"><label for = "proposition"> Tapez votre chiffre ici :</label>
 <input type="text" id="proposition">
         <button id="bouton" onclick="jeu()">Jouer</button>
             <button id="Reset" onclick="reset()">Reset</button>
+</div>
 
         <div id = "resultats"></div>
 
